@@ -1,0 +1,5 @@
+# Výlet
+
+## Algoritmus
+
+## Složitost
