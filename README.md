@@ -2,10 +2,12 @@
 
 Rozdělím si případy které mohou nastat na dvě části.
 
-1) Nejlepší možné řešení obsahuje alespoň polovinu všech dveří\
+1) Nejlepší možné řešení obsahuje alespoň polovinu všech dveří
+
 Algoritmus určitě není více než dvakrát horší než nejlepší možné řešení, protože i kdybych na seznam zařadil všechny 
-dveře stále to bude maximálně dvakrát více než je minimální počet dveří na seznamu.
-2) Nejlepší možné řešení je menší než polovina všech dveří\
+dveře stále to bude maximálně dvakrát více než je minimální počet dveří na seznamu.\
+2) Nejlepší možné řešení je menší než polovina všech dveří
+
 Pak zaručeně musí existovat alespoň dva světy se společným východem. Kdyby měl každý svět svůj vlastní vchod i východ, 
 bude minimální možné řešení obsahovat polovinu všech dveří, pokud by nějaké světy měli společný vchod, tak bude nejmenší 
 řešení určitě obsahovat více dveří než polovinu, východů je více než vchodů. Abych zmenšil nejmenší řešení pod polovinu 
